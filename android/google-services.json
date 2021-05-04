@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774571524115",
+    "project_id": "thelista-7f00d",
+    "storage_bucket": "thelista-7f00d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774571524115:android:8ac7cc61600bb8e6a63fe6",
+        "android_client_info": {
+          "package_name": "com.app.thelista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774571524115-1rg09sv1ds1lfgcis3oaj6b1s55osivf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeBqQhyeuq0X4F_cc_MM-lyfHFnJaPaHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774571524115-1rg09sv1ds1lfgcis3oaj6b1s55osivf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

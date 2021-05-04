@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO! CHANGE YOUR ANDROID APP NAME -->
+    <string name="app_name">TheLista</string>
+    <!-- TODO! CHANGE YOUR FACEBOOK APP ID -->
+    <string name="facebook_app_id">2510418585771378</string>
+    <string name="fb_login_protocol_scheme">fb2510418585771378</string>
+    <!-- TODO! ADD YOUR ANDROID GOOGLE API -->
+    <string name="google_map_api">AIzaSyCeBqQhyeuq0X4F_cc_MM-lyfHFnJaPaHU</string>
+    <!-- TODO! CHANGE YOUR ADMOB ID -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~4354546703</string>
+
+</resources>
