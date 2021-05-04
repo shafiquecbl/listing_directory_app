@@ -23,8 +23,8 @@ class CategoryCardItemV1 extends StatelessWidget {
       onTap: () => Navigator.push(
           context,
           MaterialPageRoute(
-              builder: (context) =>
-                  ItemListScreenV1(categoryIds: [category.id]))),
+              builder: (context) => ItemListScreenV1(
+                  catName: category.name, categoryIds: [category.id]))),
       child: Container(
         width: size.width,
         height: 125,

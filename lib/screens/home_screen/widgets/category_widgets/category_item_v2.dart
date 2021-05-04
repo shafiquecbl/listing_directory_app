@@ -15,12 +15,12 @@ class CategoryItemV2 extends StatelessWidget {
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    print(category[categoriesConfig['id']].name);
     return InkWell(
       onTap: () => Navigator.push(
           context,
           MaterialPageRoute(
               builder: (context) => ItemListScreenV1(
+                    catName: category[categoriesConfig['id']].name,
                     categoryIds: categoriesConfig['id'] == -1
                         ? []
                         : [category[categoriesConfig['id']].id],

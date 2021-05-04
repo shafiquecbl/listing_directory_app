@@ -18,38 +18,36 @@ class LayoutConfig {
       ],
       'layout': [
         {
+          'headerText': {
+            'title': 'Categories',
+            'showSeeAll': false,
+          }
+        },
+        {
           'listCategory': {
             // Currently support v1 and v2
             'type': 'icon',
             'version': 'v2',
             'list': [
               {
-                'icon': 'https://imgur.com/bnegNwX.png',
-                'id': 12,
-              },
-              {
-                'icon': 'https://imgur.com/Q6DpptA.png',
-                'id': 14,
-              },
-              {
                 'icon': 'https://imgur.com/rG2F5Eu.png',
-                'id': 16,
+                'id': 308,
               },
               {
                 'icon': 'https://imgur.com/XGTR3g0.png',
-                'id': 37,
+                'id': 252,
               },
               {
                 'icon': 'https://imgur.com/G0Mi15x.png',
-                'id': 57,
+                'id': 299,
               },
               {
                 'icon': 'https://imgur.com/bsbvOKr.png',
-                'id': 54,
+                'id': 214,
               },
               {
                 'icon': 'https://imgur.com/tOS6mCo.png',
-                'id': 58,
+                'id': 88,
               },
               {
                 'icon': 'https://imgur.com/ekzuEHz.png',
@@ -57,23 +55,6 @@ class LayoutConfig {
               }
             ],
           },
-        },
-        {
-          'headerText': {
-            'title': 'Featured Listings',
-            'showSeeAll': false,
-          }
-        },
-        {
-          'adSliderBanner': {
-            // Currently support v1, v2 and v3
-            'uniqueId': 2,
-            'version': 'v2',
-            'adType': 'spotlight',
-            'count': 3,
-            'interval': 3,
-            'autoPlay': true,
-          }
         },
         {
           'headerText': {

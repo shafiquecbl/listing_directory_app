@@ -15,6 +15,7 @@ class ItemListScreenV1 extends StatefulWidget {
   final List<int> locationIds;
   final List<int> tagIds;
   final String searchTerm;
+  final String catName;
 
   const ItemListScreenV1(
       {Key key,
@@ -22,6 +23,7 @@ class ItemListScreenV1 extends StatefulWidget {
       this.featureIds,
       this.locationIds,
       this.tagIds,
+      this.catName,
       this.searchTerm})
       : super(key: key);
   @override
@@ -74,7 +76,7 @@ class _ItemListScreenV1State extends State<ItemListScreenV1> {
         appBar: AppBar(
           backgroundColor: theme.backgroundColor,
           title: Text(
-            'findListing'.tr(),
+            "${widget.catName}",
             style: theme.textTheme.headline6,
           ),
           elevation: 0.0,
