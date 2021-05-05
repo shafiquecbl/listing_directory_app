@@ -67,12 +67,13 @@ class AppConfig {
   static const webPlatform = false;
   static final testSocialUser = User(
     id: 11,
-    displayName: 'Mino Paw Paw',
-    email: 'hainam1991yy@gmail.com',
-    firstName: 'Mino Paw',
-    lastName: 'Paw',
-    username: 'minopaw',
-    avatar: 'https://imgur.com/1a2AKp1.png',
+    displayName: 'TheLista',
+    email: 'marcus@bonasol.co',
+    firstName: 'The',
+    lastName: 'Lista',
+    username: 'thelista',
+    avatar:
+        'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/stacked.png?alt=media&token=0cf776d4-8700-45b3-8ffb-6d24c0ff97bb',
     cookie:
         'minopaw|1733327840|QQI4RR7GKg39yp7z5QMimJiD6ATidKE6W0mwKul8Wvn|0450afdfcc64ad7c0ed80f6b5d3cccae56bb7501a19c7fb60e312877b45e53a2',
   );

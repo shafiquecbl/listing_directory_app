@@ -30,24 +30,23 @@ class LayoutConfig {
             'version': 'v2',
             'list': [
               {
-                'icon': 'https://imgur.com/rG2F5Eu.png',
-                'id': 308,
-              },
-              {
-                'icon': 'https://imgur.com/XGTR3g0.png',
-                'id': 252,
-              },
-              {
-                'icon': 'https://imgur.com/G0Mi15x.png',
-                'id': 299,
-              },
-              {
-                'icon': 'https://imgur.com/bsbvOKr.png',
-                'id': 214,
-              },
-              {
                 'icon': 'https://imgur.com/tOS6mCo.png',
                 'id': 88,
+              },
+              {
+                'icon':
+                    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/fast-food.png?alt=media&token=199af5d4-a9ab-4c1a-a067-3253eb49c7b9',
+                'id': 326,
+              },
+              {
+                'icon':
+                    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/hotel%20(1).png?alt=media&token=f1cbbe81-8e69-4e54-bff4-34aebaa7c8f8',
+                'id': 40,
+              },
+              {
+                'icon':
+                    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/online-shopping.png?alt=media&token=0e6d8d3c-0bab-4fde-a1f3-20f0e447a4c8',
+                'id': 59,
               },
               {
                 'icon': 'https://imgur.com/ekzuEHz.png',
@@ -58,7 +57,7 @@ class LayoutConfig {
         },
         {
           'headerText': {
-            'title': 'Places you may like',
+            'title': 'Exclusive Listing',
             'showSeeAll': false,
           }
         },
@@ -70,85 +69,29 @@ class LayoutConfig {
             'interval': 3,
             'list': [
               {
-                'type': 'category',
+                'type': 'listing',
                 'version': 'v1',
-                'ids': [14],
+                'id': 1768,
                 'imageUrl':
-                    'https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg',
-                'title': 'Asian'
+                    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/empty.jpg?alt=media&token=5738247b-8a13-4374-a677-2ce704c61b02',
+                'title': 'Automotive'
               },
               {
                 'type': 'listing',
                 'version': 'v1',
-                'id': 26,
+                'id': 1766,
                 'imageUrl':
-                    'https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg',
-                'title': 'Yahoo'
-              },
-              {
-                'type': 'category',
-                'version': 'v1',
-                'ids': [14],
-                'imageUrl':
-                    'https://eatforum.org/content/uploads/2018/05/table_with_food_top_view_900x700.jpg',
-                'title': 'Western Food'
+                    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/empty.jpg?alt=media&token=5738247b-8a13-4374-a677-2ce704c61b02',
+                'title': 'Essential Services'
               },
               {
                 'type': 'listing',
                 'version': 'v1',
-                'id': 27,
+                'id': 1763,
                 'imageUrl':
-                    'https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg',
-                'title': 'Yamahaa'
-              },
-            ]
-          },
-        },
-        {
-          'headerText': {
-            'title': 'Hot picks',
-            'showSeeAll': false,
-          }
-        },
-        {
-          'sliderBanner': {
-            // Currently support v1, v2 and v3
-            'version': 'v2',
-            'autoPlay': true,
-            'interval': 3,
-            'list': [
-              {
-                'type': 'category',
-                'version': 'v1',
-                'ids': [14],
-                'imageUrl':
-                    'https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg',
-                'title': 'Asian'
-              },
-              {
-                'type': 'listing',
-                'version': 'v1',
-                'id': 28,
-                'imageUrl':
-                    'https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg',
-                'title': 'Yahoo'
-              },
-              {
-                'type': 'category',
-                'version': 'v1',
-                'ids': [14],
-                'imageUrl':
-                    'https://eatforum.org/content/uploads/2018/05/table_with_food_top_view_900x700.jpg',
-                'title': 'Western Food'
-              },
-              {
-                'type': 'listing',
-                'version': 'v1',
-                'id': 29,
-                'imageUrl':
-                    'https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg',
-                'title': 'Yamahaa'
-              },
+                    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/empty.jpg?alt=media&token=5738247b-8a13-4374-a677-2ce704c61b02',
+                'title': 'Shopping'
+              }
             ]
           },
         },
@@ -165,21 +108,12 @@ class LayoutConfig {
         {
           'category': {
             'version': 'v1',
-            'headerText': 'Luxury Restaurants',
+            'headerText': 'TheLista Recommends...',
             'showSeeAll': true,
             'ids': [57],
             'limit': 5
           }
-        },
-        {
-          'category': {
-            'version': 'v1',
-            'headerText': 'Lovely Malls',
-            'showSeeAll': false,
-            'ids': [60],
-            'limit': 5
-          },
-        },
+        }
       ],
     },
     'categoryScreen': {

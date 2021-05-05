@@ -8,7 +8,7 @@ import '../tools/tools.dart';
 
 class DynamicLinkService {
   /// TODO: CHANGE THIS TO YOUR FIREBASE DYNAMIC LINK
-  static const String _URL_PREFIX = 'https://listingdirectoryapp.page.link';
+  static const String _URL_PREFIX = 'https://thelista.page.link';
 
   /// TODO: CHANGE THIS TO YOUR APP PACKAGE NAME
   static const String _ANDROID_PACKAGE_NAME = 'com.app.thelista';

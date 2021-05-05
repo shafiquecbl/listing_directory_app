@@ -1,10 +1,12 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 /// TODO: CHANGE YOUR IN-APP DEFAULT IMAGE (OPTIONAL)
-const kDefaultImage = 'https://imgur.com/1a2AKp1.png';
+const kDefaultImage =
+    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/stacked.png?alt=media&token=0cf776d4-8700-45b3-8ffb-6d24c0ff97bb';
 
 /// TODO: CHANGE YOUR IN-APP LOGO (OPTIONAL)
-const kLogo = 'https://imgur.com/1a2AKp1.png';
+const kLogo =
+    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/stacked.png?alt=media&token=0cf776d4-8700-45b3-8ffb-6d24c0ff97bb';
 
 /// TODO: CHANGE YOUR PREFERRED CONFIGURATION (OPTIONAL)
 /// All variables must be double

@@ -94,6 +94,7 @@ flutter:
     - assets/logo/logo.png
     - assets/logo/in-app-logo.png
     - assets/translations/
+    - assets/
 
 # TODO: RUN THIS COMMAND IN TERMINAL TO CREATE YOUR APP ICON: flutter pub run flutter_launcher_icons:main
 flutter_icons:
