@@ -6,16 +6,14 @@ class LayoutConfig {
   static String wishListPage = 'wishListPage';
   static String chatPage = 'chatPage';
 
+  static final String webBanner =
+      'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/spainbanner4.jpg?alt=media&token=51443479-b141-4818-a212-ab800c97f9f7';
+
   /// TODO: CHANGE YOUR LAYOUT (OPTIONAL)
   static Map<dynamic, dynamic> data = {
     'homeScreen': {
       'version': 'v2', // Currently support v1 and v2
-      'images': [
-        'https://imgur.com/v5l8VTq.jpg',
-        'https://imgur.com/vynDJiW.jpg',
-        'https://imgur.com/bibxWhj.jpg',
-        'https://imgur.com/Sy1Xw6s.jpg'
-      ],
+      'images': [webBanner, webBanner, webBanner, webBanner],
       'layout': [
         {
           'headerText': {
@@ -47,10 +45,6 @@ class LayoutConfig {
                 'icon':
                     'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/online-shopping.png?alt=media&token=0e6d8d3c-0bab-4fde-a1f3-20f0e447a4c8',
                 'id': 59,
-              },
-              {
-                'icon': 'https://imgur.com/ekzuEHz.png',
-                'id': -1,
               }
             ],
           },

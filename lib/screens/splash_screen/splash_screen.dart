@@ -49,8 +49,8 @@ class _SplashScreenState extends State<SplashScreen> {
                     duration: const Duration(milliseconds: 500),
                     child: CachedNetworkImage(
                       imageUrl: kLogo,
-                      width: 100.0,
-                      height: 100.0,
+                      width: 150,
+                      height: 150,
                     ),
                     onEnd: () => setState(() => isEnd = true),
                   ),
