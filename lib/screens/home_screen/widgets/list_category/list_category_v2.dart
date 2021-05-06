@@ -45,12 +45,12 @@ class ListCategoryV2 extends StatelessWidget {
             categoriesConfig: list[index],
           ),
         ),
-        if (categories.isNotEmpty)
-          CategoryItemIndex(
-            version: 'v2',
-            category: categories,
-            categoriesConfig: list[list.length - 1],
-          ),
+        // if (categories.isNotEmpty)
+        //   CategoryItemIndex(
+        //     version: 'v2',
+        //     category: categories,
+        //     categoriesConfig: list[list.length - 1],
+        //   ),
       ],
     );
   }

@@ -46,10 +46,10 @@ class LayoutConfig {
                     'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/online-shopping.png?alt=media&token=0e6d8d3c-0bab-4fde-a1f3-20f0e447a4c8',
                 'id': 59,
               },
-              {
-                'icon': 'https://imgur.com/ekzuEHz.png',
-                'id': -1,
-              }
+              // {
+              //   'icon': 'https://imgur.com/ekzuEHz.png',
+              //   'id': -1,
+              // }
             ],
           },
         },
