@@ -46,11 +46,11 @@ class _SplashScreenState extends State<SplashScreen> {
                 child: Center(
                   child: AnimatedOpacity(
                     opacity: isDone ? 0.0 : 1.0,
-                    duration: const Duration(milliseconds: 500),
+                    duration: const Duration(milliseconds: 2000),
                     child: CachedNetworkImage(
                       imageUrl: kLogo,
-                      width: 150,
-                      height: 150,
+                      width: 300,
+                      height: 300,
                     ),
                     onEnd: () => setState(() => isEnd = true),
                   ),

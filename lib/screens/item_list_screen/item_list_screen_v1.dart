@@ -131,7 +131,6 @@ class _ItemListScreenV1State extends State<ItemListScreenV1> {
                           ),
                         ),
                       ),
-              AdMobWidget(),
             ],
           ),
         ),

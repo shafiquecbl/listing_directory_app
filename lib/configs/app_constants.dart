@@ -2,7 +2,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 /// TODO: CHANGE YOUR IN-APP DEFAULT IMAGE (OPTIONAL)
 const kDefaultImage =
-    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/stacked.png?alt=media&token=0cf776d4-8700-45b3-8ffb-6d24c0ff97bb';
+    'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/Transparent.png?alt=media&token=b18adfc0-57ab-443b-bed8-4c00f76e9bff';
 
 /// TODO: CHANGE YOUR IN-APP LOGO (OPTIONAL)
 const kLogo =

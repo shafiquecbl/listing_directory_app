@@ -324,7 +324,6 @@ class _ItemDetailScreenState extends State<ItemDetailScreen> {
                     ],
                   ),
                 ),
-                AdMobWidget(),
               ],
             ),
           ),
