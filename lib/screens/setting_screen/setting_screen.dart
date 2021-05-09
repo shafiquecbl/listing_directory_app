@@ -43,11 +43,13 @@ class SettingScreen extends StatelessWidget {
               children: [
                 const SizedBox(height: 20.0),
                 CircleAvatar(
-                    backgroundImage: CachedNetworkImageProvider(
-                        (authModel?.user?.avatar != null &&
-                                authModel.user.avatar.isNotEmpty)
-                            ? authModel.user.avatar
-                            : 'assets/nullUser.png'),
+                    backgroundColor: Colors.grey[300],
+                    backgroundImage: CachedNetworkImageProvider((authModel
+                                    ?.user?.avatar !=
+                                null &&
+                            authModel.user.avatar.isNotEmpty)
+                        ? authModel.user.avatar
+                        : 'https://firebasestorage.googleapis.com/v0/b/thelista-7f00d.appspot.com/o/nullUser.png?alt=media&token=25dcd49e-5edc-4fb6-8610-c02a5050e25d'),
                     radius: 60),
                 const SizedBox(height: 10.0),
                 Text(
