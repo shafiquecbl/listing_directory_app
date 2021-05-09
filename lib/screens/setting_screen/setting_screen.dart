@@ -47,7 +47,7 @@ class SettingScreen extends StatelessWidget {
                         (authModel?.user?.avatar != null &&
                                 authModel.user.avatar.isNotEmpty)
                             ? authModel.user.avatar
-                            : kDefaultImage),
+                            : 'assets/nullUser.png'),
                     radius: 60),
                 const SizedBox(height: 10.0),
                 Text(
@@ -64,24 +64,24 @@ class SettingScreen extends StatelessWidget {
                         MaterialPageRoute(
                             builder: (context) => ProfileScreenV1())),
                   ),
-                if (authModel.state == AuthenticationState.loggedIn)
-                  SettingItemV1(
-                    icon: Icons.add,
-                    title: 'addListing'.tr(),
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => SubmitListingScreen())),
-                  ),
-                if (authModel.state == AuthenticationState.loggedIn)
-                  SettingItemV1(
-                    icon: Icons.list_sharp,
-                    title: 'myListings'.tr(),
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => OwnerListingsScreen())),
-                  ),
+                // if (authModel.state == AuthenticationState.loggedIn)
+                //   SettingItemV1(
+                //     icon: Icons.add,
+                //     title: 'addListing'.tr(),
+                //     onTap: () => Navigator.push(
+                //         context,
+                //         MaterialPageRoute(
+                //             builder: (context) => SubmitListingScreen())),
+                //   ),
+                // if (authModel.state == AuthenticationState.loggedIn)
+                //   SettingItemV1(
+                //     icon: Icons.list_sharp,
+                //     title: 'myListings'.tr(),
+                //     onTap: () => Navigator.push(
+                //         context,
+                //         MaterialPageRoute(
+                //             builder: (context) => OwnerListingsScreen())),
+                //   ),
                 if (authModel.state == AuthenticationState.loggedIn)
                   SettingItemV1(
                     icon: FontAwesomeIcons.user,
@@ -108,15 +108,15 @@ class SettingScreen extends StatelessWidget {
                         builder: (subContext) => SelectLanguage());
                   },
                 ),
-                if (authModel.state == AuthenticationState.loggedIn)
-                  SettingItemV1(
-                    icon: Icons.history,
-                    title: 'bookingHistory'.tr(),
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => BookingHistoryScreen())),
-                  ),
+                // if (authModel.state == AuthenticationState.loggedIn)
+                //   SettingItemV1(
+                //     icon: Icons.history,
+                //     title: 'bookingHistory'.tr(),
+                //     onTap: () => Navigator.push(
+                //         context,
+                //         MaterialPageRoute(
+                //             builder: (context) => BookingHistoryScreen())),
+                //   ),
                 if (authModel.state == AuthenticationState.notLogin)
                   SettingItemV1(
                     icon: FontAwesomeIcons.doorClosed,
